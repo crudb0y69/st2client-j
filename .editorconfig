@@ -1,0 +1,24 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.java]
+# Wildcard import thresholds — match actual codebase convention
+ij_java_class_count_to_use_import_on_demand = 5
+ij_java_names_count_to_use_import_on_demand = 3
+
+[*.{xml,yml,yaml}]
+indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.properties]
+indent_style = space
+indent_size = 4
